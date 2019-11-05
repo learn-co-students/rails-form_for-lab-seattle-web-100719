@@ -1,0 +1,5 @@
+<h1>School Classes</h1>
+<%= @school_classes.all do |sc| %>
+    <h1><% sc.title %></h1>
+    <h1><% sc.room_number %></h1>
+<% end %>
